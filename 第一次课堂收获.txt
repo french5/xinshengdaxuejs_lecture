@@ -1,0 +1,26 @@
+
+一 github上如何新建和删除一个项目（仓库）repositories
+1New repository
+2xxxx, Description, public, Create repository
+3Create a new repository on the command line
+french5/xxxx
+touch README.md
+
+git init
+git add README.md
+git commit  -m "first commit"
+git remote add origin git@github.com: french5/xxxx.git
+git push  -u  origin master
+
+Push an existing repository from the command line
+git remote add origin git@github.com: french5/xxxx.git
+git push  -u origin master
+
+delete:
+
+1settings
+2Danger Zone Delete this repository confirm
+
+二 git push origin master需要输入github的邮箱和密码，密码输入是不会动的，只有密码正确enter以后可以进入，在终端输入密码是不显示的，防止被人偷看。
+
+三 教程地址https://xugy0926.github.io/getting-started-with-javascript/
