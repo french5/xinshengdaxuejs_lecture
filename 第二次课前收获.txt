@@ -1,0 +1,28 @@
+一 在第一节课的时候，按照教程说明我在操作中遇到了：
+>Mac自带git，我却没有认真阅读教程所以有点疑惑。
+>git push origin master第一次推送的时候需要输入github的邮箱和密码，密码输入是不会动的，只有密码正确enter以后可以进入，在终端输入密码是不显示的，防止被人偷看。
+
+二 教程中的
+
+如果一开始找不到路径用pwd在终端查找文件夹
+
+// 创建一个工作用的文件夹，命名为my_project。这样做的目的是把你从git上下载下来的项目都规整到文件夹my_project里。
+> mkdir my_project 
+
+// 进入文件夹my_project 
+> cd my_project
+
+// 开始克隆项目    
+> git clone https://github.com/xugy0926/getting-started-with-javascript.git
+
+三 words-from-the-heart 提交pull request作为fork项目的一次练习
+我在修改words-from-the-heart之后，没有直接进入文件夹查看状态，中途断网过一次，所以需要重新进入文件并使用命令符
+如下：
+> git clone <your project url>
+> git stauts
+> git add -A
+> git push origin master
+
+四 如何学习编程
+张越详细介绍了如何学习编程http://www.jianshu.com/p/51b3962e6ff9
+优秀程序员都有哪些好习惯http://www.jianshu.com/p/4d8e11815526
