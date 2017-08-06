@@ -24,3 +24,11 @@ delete:
 二 git push origin master需要输入github的邮箱和密码，密码输入是不会动的，只有密码正确enter以后可以进入，在终端输入密码是不显示的，防止被人偷看。
 
 三 教程地址https://xugy0926.github.io/getting-started-with-javascript/
+
+四 基本操作
+
+从Github上克隆一个项目到本地。 git clone url
+修改项目。
+添加修改到本地。git add -A
+提交修改到本地。git commit -m "some logo"
+推送提交到远程。 git push origin master
